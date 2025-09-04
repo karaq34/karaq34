@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="idris kara'nın kişisel web sitesi">
+    <meta name="keywords" content="idris,kara,özgeçmiş,cv">
+    <title>Özgeçmişim - İdris Kara</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: #333;
+        }
+        header {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 25px;
+            text-align: center;
+            box-shadow: 0px 3px 10px rgba(0,0,0,0.3);
+        }
+        nav a {
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: bold;
+            color: #444;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #5a3dca;
+        }
+        .container {
+            width: 80%;
+            margin: 40px auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0px 6px 15px rgba(0,0,0,0.25);
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        h2 {
+            color: #5a3dca;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #5a3dca;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        ul li::before {
+            content: "✔️ ";
+            color: #5a3dca;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Özgeçmişim</h1>
+        <nav>
+            <a href="Anasayfa.html">Anasayfa</a>
+            <a href="Özgeçmişim.html">Özgeçmişim</a>
+            <a href="İletişim.html">İletişim</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <h2>Eğitim</h2>
+            <ul>
+                <li>11. Sınıf – İTO 15 Temmuz Lisesi, Sayısal Bölümü</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Hobilerim</h2>
+            <ul>
+                <li>⚽ Futbol oynamak</li>
+                <li>🔧 Elektronik işlerle uğraşmak</li>
+                <li>🎯 Aktivitelere katılmak</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Yetenekler</h2>
+            <ul>
+                <li>HTML (BTK Akademi Sertifikası)</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Hedeflerim</h2>
+            <ul>
+                <li>Web geliştirme alanında kendimi geliştirmek</li>
+                <li>Elektronik ve yazılım projeleri üretmek</li>
+                <li>Üniversitede mühendislik okumak</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

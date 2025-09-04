@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="idris kara'nın kişisel web sitesi">
+    <meta name="keywords" content="idris,kara,web,kişisel,sitesi">
+    <title>Anasayfa - İdris Kara</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1E90FF, #f39a2c);
+            color: white;
+            text-align: center;
+        }
+        header {
+            padding: 20px;
+            background: rgba(0,0,0,0.3);
+            box-shadow: 0px 3px 10px rgba(0,0,0,0.4);
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            color: white;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ffeb3b;
+        }
+        .hero {
+            padding: 80px 20px;
+        }
+.hero img {
+    width: 100%;
+    max-width: 200px; /* Çok büyümesini engeller */
+    height: auto;
+    border-radius: 30px;
+    border: 4px solid white;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.5);
+    object-fit: cover; /* Görseli kırpar ama alanı tam doldurur */
+}
+
+
+
+        .hero h1 {
+            font-size: 2.8em;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 1.2em;
+            max-width: 600px;
+            margin: 10px auto 30px;
+            line-height: 1.6;
+        }
+        .buttons a {
+            display: inline-block;
+            margin: 10px;
+            padding: 12px 25px;
+            border-radius: 25px;
+            font-weight: bold;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+        .btn-primary {
+            background: #ffeb3b;
+            color: #333;
+        }
+        .btn-primary:hover {
+            background: #fdd835;
+        }
+        .btn-secondary {
+            background: transparent;
+            border: 2px solid white;
+            color: white;
+        }
+        .btn-secondary:hover {
+            background: white;
+            color: #0072ff;
+        }
+        footer {
+            margin-top: 40px;
+            padding: 15px;
+            font-size: 0.9em;
+            background: rgba(0,0,0,0.3);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>İdris Kara'nın Kişisel Web Sitesi</h2>
+        <nav>
+            <a href="Anasayfa.html">Anasayfa</a>
+            <a href="Özgeçmişim.html">Özgeçmişim</a>
+            <a href="İletişim.html">İletişim</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <img src="idris.jpeg" alt="İdris Kara">
+        <h1>Merhaba, Ben İdris Kara 👋</h1>
+        <p>
+            11. sınıfta İTO 15 Temmuz Lisesi'nde okuyorum.  
+            Sayısal bölümde eğitim alıyor, futbol oynamayı, elektronikle uğraşmayı ve yeni aktiviteler yapmayı seviyorum.  
+            HTML konusunda BTK Akademi’den sertifikam bulunuyor.
+        </p>
+        <div class="buttons">
+            <a href="Özgeçmişim.html" class="btn-primary">Özgeçmişimi Gör</a>
+            <a href="İletişim.html" class="btn-secondary">Benimle İletişime Geç</a>
+        </div>
+    </section>
+
+    <footer>
+        © 2025 İdris Kara - Tüm Hakları Saklıdır
+    </footer>
+</body>
+</html>
